@@ -24,8 +24,4 @@ RUN chmod +x /bootstrap.sh
 
 WORKDIR /workdir
 
-VOLUME ["/workdir","/workdir"]
-
-EXPOSE 8000
-
 ENTRYPOINT ["/bootstrap.sh"]
